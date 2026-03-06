@@ -30,3 +30,7 @@
   text-align: left !important;
   vertical-align: middle !important;
 }
+/* Global smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

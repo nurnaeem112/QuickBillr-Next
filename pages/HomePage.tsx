@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { blogPosts } from './BlogPage';
+import { blogPosts } from '../data/blogPosts';
 import { Helmet } from 'react-helmet-async';
 
 import { TEMPLATES } from '../constants';
@@ -26,24 +26,84 @@ const TestimonialCard: React.FC<{ quote: string; author: string; role: string; a
 );
 
 
-const TemplateMarquee: React.FC = () => {
-  // Use the actual templates defined in constants for consistency
-  // If TEMPLATES is small, we cycle it to fill the marquee
-  const displayTemplates = [...TEMPLATES, ...TEMPLATES, ...TEMPLATES];
+const TemplateMarquee: React.FC<{ vertical?: boolean; reverse?: boolean; speed?: number }> = ({ 
+  vertical = false, 
+  reverse = false,
+  speed = 60 
+}) => {
+  // Filter only the templates marked for hero section
+  const heroTemplates = TEMPLATES.filter(t => t.showInHero);
+  
+  // Duplicating for a seamless continuous loop
+  const displayTemplates = [...heroTemplates, ...heroTemplates, ...heroTemplates, ...heroTemplates];
+
+  if (heroTemplates.length === 0) return null;
+
+  const animationName = vertical 
+    ? (reverse ? 'marquee-vertical-reverse' : 'marquee-vertical')
+    : 'marquee';
+
+  if (vertical) {
+    return (
+      <div className="relative h-full w-full overflow-hidden py-4">
+        {/* Marquee Track - Vertical */}
+        <div 
+          className="flex flex-col items-center hover:[animation-play-state:paused]"
+          style={{
+            animation: `${animationName} ${speed}s linear infinite`
+          }}
+        >
+          {displayTemplates.map((template, idx) => (
+            <div key={`${template.id}-${idx}`} className="flex-shrink-0 py-4 w-full px-4">
+              <Link
+                to={`/free-invoice-generator?template=${template.id}`}
+                className="group block relative w-full aspect-[1/1.414] bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden transition-all duration-500 hover:shadow-2xl hover:scale-105"
+              >
+                <img
+                  src={template.image}
+                  alt={template.name}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-primary-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-[1px]">
+                  <div className="text-center px-2">
+                    <span className="bg-white text-primary-700 font-bold py-1.5 px-3 rounded-lg shadow-lg text-xs block mb-1 whitespace-nowrap">
+                      Use {template.name}
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            </div>
+          ))}
+        </div>
+
+        <style>{`
+          @keyframes marquee-vertical {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-50%); }
+          }
+          @keyframes marquee-vertical-reverse {
+            0% { transform: translateY(-50%); }
+            100% { transform: translateY(0); }
+          }
+        `}</style>
+      </div>
+    );
+  }
 
   return (
     <div className="relative w-full overflow-hidden py-10">
       {/* Edge Fades */}
-      <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-white dark:from-gray-900 to-transparent z-10 pointer-events-none" />
-      <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-white dark:from-gray-900 to-transparent z-10 pointer-events-none" />
+      <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+      <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
 
-      {/* Marquee Track - Pauses on hover */}
+      {/* Marquee Track - Horizontal */}
       <div className="flex w-fit animate-marquee hover:[animation-play-state:paused]">
         {displayTemplates.map((template, idx) => (
           <div key={`${template.id}-${idx}`} className="flex-shrink-0 px-4">
             <Link
               to={`/free-invoice-generator?template=${template.id}`}
-              className="group block relative w-48 md:w-64 aspect-[1/1.414] bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:scale-105"
+              className="group block relative w-48 md:w-64 aspect-[1/1.414] bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:scale-105"
             >
               <img
                 src={template.image}
@@ -53,9 +113,14 @@ const TemplateMarquee: React.FC = () => {
               />
               {/* Overlay on hover */}
               <div className="absolute inset-0 bg-primary-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-[1px]">
-                <span className="bg-white text-primary-700 font-bold py-2 px-4 rounded-lg shadow-lg text-sm">
-                  Use {template.name}
-                </span>
+                <div className="text-center px-4">
+                  <span className="bg-white text-primary-700 font-bold py-2 px-4 rounded-lg shadow-lg text-sm block mb-2 whitespace-nowrap">
+                    Use {template.name}
+                  </span>
+                  <span className="text-white text-xs font-semibold drop-shadow-md">
+                    Click to Open
+                  </span>
+                </div>
               </div>
             </Link>
           </div>
@@ -65,16 +130,15 @@ const TemplateMarquee: React.FC = () => {
       <style>{`
         @keyframes marquee {
           0% { transform: translateX(0); }
-          100% { transform: translateX(-33.333%); }
+          100% { transform: translateX(-50%); }
         }
         .animate-marquee {
-          animation: marquee 30s linear infinite;
+          animation: marquee 40s linear infinite;
         }
       `}</style>
     </div>
   );
 };
-
 
 const HomePage: React.FC = () => {
     const features = [
@@ -165,36 +229,79 @@ const HomePage: React.FC = () => {
 
 
     <div>
-      {/* Hero Section */}
-      <section className="bg-white dark:bg-gray-900">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight dark:text-white">
-            Create Professional Invoices & Estimates in <span className="bg-gradient-to-r from-primary-500 to-primary-700 text-transparent bg-clip-text">Seconds</span>
-          </h1>
-          <p className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-gray-600 dark:text-gray-300">
-            Free, simple, and globally compatible with multi-language support, currency options, and QR code payments — perfect for freelancers and small businesses.
-          </p>
-          <div className="mt-8">
-            <Link
-              to="/free-invoice-generator"
-              className="inline-block px-8 py-4 bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold rounded-lg shadow-md hover:shadow-lg hover:brightness-110 transition-all transform hover:scale-105"
-            >
-              Try Free Now
-            </Link>
-            
+
+
+
+{/* Hero Section */}
+      <section className="bg-white overflow-hidden min-h-[80vh] flex items-center">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Column: Text Content */}
+            <div className="text-left">
+              <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight">
+                Create Professional Invoices & Estimates in <span className="bg-gradient-to-r from-primary-500 to-primary-700 text-transparent bg-clip-text">Seconds</span>
+              </h1>
+              <p className="mt-6 max-w-xl text-lg md:text-xl text-gray-600 font-medium leading-relaxed">
+                Free, simple, and globally compatible with multi-language support, currency options, and QR code payments — perfect for freelancers and small businesses.
+              </p>
+              <div className="mt-10 flex flex-col sm:flex-row items-start gap-4">
+                <Link
+                  to="/free-invoice-generator"
+                  className="inline-block px-10 py-4 bg-gradient-to-r from-primary-600 to-primary-700 text-white font-bold rounded-xl shadow-xl hover:shadow-primary-500/25 hover:brightness-110 transition-all transform hover:scale-105"
+                >
+                  Try Free Now
+                </Link>
+                <Link
+                  to="/about-quickbillr"
+                  className="inline-block px-10 py-4 text-gray-700 font-bold rounded-xl border border-gray-300 hover:bg-gray-50 transition-all"
+                >
+                  Learn More
+                </Link>
+              </div>
+              
+              {/* Trust Badges or Stats could go here */}
+              <div className="mt-12 flex items-center gap-6 opacity-60 grayscale">
+                
+                <div className="flex items-center gap-2">
+                  <svg className="w-5 h-5 text-primary-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+                  <span className="text-sm font-semibold">No Signup Required</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Column: Template Showcase */}
+            <div className="relative h-[500px] md:h-[700px] flex items-center justify-center">
+              {/* Decorative background glows */}
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-primary-50 rounded-full blur-3xl -z-10 opacity-60" />
+              
+              <div className="w-full h-full grid grid-cols-3 gap-2 [mask-image:linear-gradient(to_bottom,transparent,black_15%,black_85%,transparent)]">
+                <div className="h-full">
+                  <TemplateMarquee vertical={true} reverse={true} speed={70} />
+                </div>
+                <div className="h-full ">
+                  <TemplateMarquee vertical={true} reverse={false} speed={50} />
+                </div>
+                <div className="h-full">
+                  <TemplateMarquee vertical={true} reverse={true} speed={80} />
+                </div>
+              </div>
+              
+              {/* Decorative elements */}
+              <div className="absolute -top-12 -right-12 w-32 h-32 bg-primary-100 rounded-full blur-3xl opacity-40" />
+              <div className="absolute -bottom-16 -left-16 w-40 h-40 bg-primary-200 rounded-full blur-[80px] opacity-30" />
+            </div>
           </div>
         </div>
-        {/* Marquee Showcase */}
-        <TemplateMarquee />
-      
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 bg-gray-50 dark:bg-gray-800">
+
+
+{/* Features Section */}
+      <section className="py-24 bg-white border-t border-gray-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Everything You Need to Get Paid Faster</h2>
-                <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">Powerful features to streamline your billing process.</p>
+            <div className="text-center mb-16">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight">Everything You Need to Get Paid Faster</h2>
+                <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Powerful features to streamline your billing process and maintain professionalism.</p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {features.map(feature => (
@@ -203,6 +310,8 @@ const HomePage: React.FC = () => {
             </div>
         </div>
       </section>
+
+      
 
       {/* Featured Blog Section */}
       <section className="py-20 bg-white dark:bg-gray-900">

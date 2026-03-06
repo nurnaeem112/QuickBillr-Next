@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { HelmetProvider } from 'react-helmet-async';
 import "./styles/export-fix.css";
-
+import "./index.css";
 import { AuthProvider } from "./context/AuthContext"
 
 const rootElement = document.getElementById('root');

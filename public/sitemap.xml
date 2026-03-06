@@ -4,15 +4,31 @@
   <!-- 🏠 Home Page -->
   <url>
     <loc>https://quickbillr.online/</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <priority>1.00</priority>
     <changefreq>daily</changefreq>
   </url>
 
-  <!-- 🧾 Free Invoice Generator -->
+    <!-- 🏠 log in Page -->
+  <url>
+    <loc>https://quickbillr.online/login</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>1.00</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+    <!-- 🏠 sign up Page -->
+  <url>
+    <loc>https://quickbillr.online/signup</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>1.00</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- 🧾 Free Invoice Generator (Tool) -->
   <url>
     <loc>https://quickbillr.online/free-invoice-generator</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <priority>0.95</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -36,22 +52,24 @@
   <!-- 📰 Blog Main Page -->
   <url>
     <loc>https://quickbillr.online/blog</loc>
-    <lastmod>2026-01-22</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <priority>0.90</priority>
     <changefreq>weekly</changefreq>
   </url>
 
-  <!-- 📝 Blog Posts -->
+  <!-- 📝 BLOG POSTS (23 articles) -->
+
+  <!-- Original Blog Posts (from previous sitemap) -->
   <url>
     <loc>https://quickbillr.online/blog/get-paid-faster</loc>
-    <lastmod>2026-01-22</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://quickbillr.online/blog/invoicing-mistakes</loc>
-    <lastmod>2026-01-20</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -65,14 +83,14 @@
 
   <url>
     <loc>https://quickbillr.online/blog/tax-season-prep</loc>
-    <lastmod>2026-01-18</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://quickbillr.online/blog/remote-work-billing</loc>
-    <lastmod>2026-01-18</lastmod>
+    <lastmod>2026-03-06</lastmod>
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -80,6 +98,126 @@
   <url>
     <loc>https://quickbillr.online/blog/the-future-of-billing</loc>
     <lastmod>2026-01-18</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- New Blog Posts from your Routes -->
+  <url>
+    <loc>https://quickbillr.online/blog/how-to-avoid-late-payments-from-clients</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/how-to-create-an-invoice</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/online-invoice-vs-paper-invoice</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/free-invoice-builder</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/best-invoice-software-for-small-business</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/the-ultimate-guide-to-invoice-software</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/best-invoice-software-for-freelancers</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/what-should-be-included-in-an-invoice</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/invoice-template-vs-software</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/how-to-number-invoices-properly</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/how-to-send-an-invoice-by-email-professionally</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/how-to-handle-late-payments</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/recurring-invoices-explained</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/invoice-mistakes-cost-small-businesses-money</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/how-to-add-tax-and-discounts-to-an-invoice</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/invoice-due-date-terms-explained</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://quickbillr.online/blog/estimate-vs-invoice</loc>
+    <lastmod>2026-03-06</lastmod>
     <priority>0.70</priority>
     <changefreq>monthly</changefreq>
   </url>

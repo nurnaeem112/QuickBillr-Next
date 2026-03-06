@@ -5,6 +5,24 @@ export interface LineItem {
   price: number | '';
 }
 
+
+
+
+
+
+// In your types.ts file
+export interface Template {
+  id: string;
+  image: string;
+  name: string;
+  type: 'Free' | 'Premium';
+  showInHero?: boolean;  // Add this line (optional property)
+}
+
+
+
+
+
 export enum DocumentType {
   Invoice = 'INVOICE',
   Estimate = 'ESTIMATE',

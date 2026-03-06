@@ -10,15 +10,14 @@ import template7Img from './assets/template-7.png';
 import template8Img from './assets/template-8.png';
 
 export const TEMPLATES: Template[] = [
-  { id: 'template-1', image: template1Img, name: 'template-1', type: 'Premium' },
-  { id: 'template-2', image: template2Img, name: 'template-2', type: 'Free' },
-  { id: 'template-3', image: template3Img, name: 'template-3', type: 'Premium' },
-  { id: 'template-4', image: template4Img, name: 'template-4', type: 'Free' },
-  { id: 'template-5', image: template5Img, name: 'template-5', type: 'Free' },
-  { id: 'template-6', image: template6Img, name: 'template-6', type: 'Free' },
-  { id: 'template-7', image: template7Img, name: 'template-7', type: 'Free' },
-  { id: 'template-8', image: template8Img, name: 'template-8', type: 'Free' },
-
+  { id: 'template-1', image: template1Img, name: 'template-1', type: 'Premium', showInHero: true },  // Added showInHero
+  { id: 'template-2', image: template2Img, name: 'template-2', type: 'Free', showInHero: true },     // Added showInHero
+  { id: 'template-3', image: template3Img, name: 'template-3', type: 'Premium', showInHero: true },  // Added showInHero
+  { id: 'template-4', image: template4Img, name: 'template-4', type: 'Free', showInHero: true },     // Added showInHero
+  { id: 'template-5', image: template5Img, name: 'template-5', type: 'Free', showInHero: true },     // Added showInHero
+  { id: 'template-6', image: template6Img, name: 'template-6', type: 'Free', showInHero: true },     // Added showInHero
+  { id: 'template-7', image: template7Img, name: 'template-7', type: 'Free', showInHero: true },     // Added showInHero
+  { id: 'template-8', image: template8Img, name: 'template-8', type: 'Free', showInHero: true },     // Added showInHero
 ]
 
 

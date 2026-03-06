@@ -1,63 +1,14 @@
 import React from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
-import { blogPosts } from './BlogPage';
-import { useSeo } from "../hooks/useSeo";
-import SafeHTMLRenderer from "../components/SafeHTMLRenderer";
-import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
+import type { BlogPost } from '../data/blogPosts';
 
-const BlogPostPage: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
-  const post = blogPosts.find((p) => p.id === id);
+interface BlogLayoutProps {
+  post: BlogPost;
+  children?: React.ReactNode;
+}
 
-  useSeo({
-  title: `${post.title} | QuickBillr Blog`,
-  description: post.description,
-  image: post.imageUrl,
-  url: `https://quickbillr.online/blog/${post.id}`,
-});
-
-
-  if (!post) {
-    return <Navigate to="/blog" />;
-  }
-
+const BlogLayout: React.FC<BlogLayoutProps> = ({ post, children }) => {
   return (
-
-     <>
-        {/* ✅ HELMET MUST BE HERE */}
-        <Helmet>
-          <title>Invoicing Tips, Freelancer Guides & Small Business Advice | QuickBillr Blog</title>
-          
-          <meta
-            name="description"
-            content="Explore expert invoicing tips, freelancer guides, and small business advice on the QuickBillr Blog. Learn how to get paid faster, manage clients, and grow your business smarter."
-            key="description"
-          />
-
-          <meta
-            name="keywords"
-            content="invoicing tips, freelancer advice, small business finance, how to get paid faster, billing tips, invoice guide, freelance business tips"
-          />
-
-
-          {/* Canonical (VERY IMPORTANT) */}
-          <link rel="canonical" href="https://quickbillr.online/blog" />
-
-          <meta name="robots" content="index, follow" />
-  
-          {/* Open Graph */}
-          <meta property="og:title" content="Free Invoice Generator for Freelancers | QuickBillr" />
-          <meta property="og:description" content="Create professional invoices in seconds with QuickBillr." />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://quickbillr.com/" />
-  
-          {/* Twitter */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Free Invoice Generator for Freelancers | QuickBillr" />
-          <meta name="twitter:description" content="Create invoices easily with QuickBillr." />
-        </Helmet>
-
-
     <div className="bg-white dark:bg-gray-900 min-h-screen">
       <div className="relative h-[400px] w-full">
         <img 
@@ -80,7 +31,7 @@ const BlogPostPage: React.FC = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center space-x-6 mb-10 pb-10 border-b border-gray-100 dark:border-gray-800">
+          <div className="flex items-center space-x-6 mb-10 pb-10 border-b border-gray-100 dark:border-gray-700">
             <div className="flex items-center">
               <div className="w-12 h-12 rounded-full bg-primary-600 flex items-center justify-center text-white font-bold text-lg">
                 {post.author.charAt(0)}
@@ -106,9 +57,16 @@ const BlogPostPage: React.FC = () => {
             <p className="text-xl font-medium text-gray-900 dark:text-white mb-8">
               {post.description}
             </p>
-
-            <SafeHTMLRenderer html={post.content} />
-
+            
+            {children || (
+              <>
+                {post.content.split('. ').map((sentence, idx) => (
+                  <p key={idx} className="mb-6">
+                    {sentence}{sentence.endsWith('.') ? '' : '.'}
+                  </p>
+                ))}
+              </>
+            )}
             
             <div className="bg-primary-50 rounded-2xl p-8 my-12 dark:bg-gray-800 border border-primary-100 dark:border-gray-700">
               <h3 className="text-xl font-bold text-primary-900 dark:text-primary-400 mb-4">Start billing like a pro today</h3>
@@ -126,8 +84,7 @@ const BlogPostPage: React.FC = () => {
         </div>
       </div>
     </div>
-   </>
   );
 };
 
-export default BlogPostPage;
+export default BlogLayout;
