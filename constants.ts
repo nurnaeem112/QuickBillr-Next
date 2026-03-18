@@ -1,23 +1,14 @@
 import type { Template } from './types';
 
-import template1Img from './assets/template-1.png';
-import template2Img from './assets/template-2.png';
-import template3Img from './assets/template-3.png';
-import template4Img from './assets/template-4.png';
-import template5Img from './assets/template-5.png';
-import template6Img from './assets/template-6.png';
-import template7Img from './assets/template-7.png';
-import template8Img from './assets/template-8.png';
-
 export const TEMPLATES: Template[] = [
-  { id: 'template-1', image: template1Img, name: 'template-1', type: 'Premium', showInHero: true },  // Added showInHero
-  { id: 'template-2', image: template2Img, name: 'template-2', type: 'Free', showInHero: true },     // Added showInHero
-  { id: 'template-3', image: template3Img, name: 'template-3', type: 'Premium', showInHero: true },  // Added showInHero
-  { id: 'template-4', image: template4Img, name: 'template-4', type: 'Free', showInHero: true },     // Added showInHero
-  { id: 'template-5', image: template5Img, name: 'template-5', type: 'Free', showInHero: true },     // Added showInHero
-  { id: 'template-6', image: template6Img, name: 'template-6', type: 'Free', showInHero: true },     // Added showInHero
-  { id: 'template-7', image: template7Img, name: 'template-7', type: 'Free', showInHero: true },     // Added showInHero
-  { id: 'template-8', image: template8Img, name: 'template-8', type: 'Free', showInHero: true },     // Added showInHero
+  { id: 'template-1', image: '/assets/template-1.png', name: 'template-1', type: 'Premium', showInHero: true },
+  { id: 'template-2', image: '/assets/template-2.png', name: 'template-2', type: 'Free', showInHero: true },
+  { id: 'template-3', image: '/assets/template-3.png', name: 'template-3', type: 'Premium', showInHero: true },
+  { id: 'template-4', image: '/assets/template-4.png', name: 'template-4', type: 'Free', showInHero: true },
+  { id: 'template-5', image: '/assets/template-5.png', name: 'template-5', type: 'Free', showInHero: true },
+  { id: 'template-6', image: '/assets/template-6.png', name: 'template-6', type: 'Free', showInHero: true },
+  { id: 'template-7', image: '/assets/template-7.png', name: 'template-7', type: 'Free', showInHero: true },
+  { id: 'template-8', image: '/assets/template-8.png', name: 'template-8', type: 'Free', showInHero: true },
 ]
 
 

@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+'use client';
+
+import React from 'react';
 import type { InvoiceData, LineItem } from '../types';
 
 import Template1 from '../templates/Template1';
@@ -29,33 +31,11 @@ interface InvoicePreviewProps {
   balanceDue: number;
   EditableField: React.ElementType;
   templateId: string;
+  isDownloading?: boolean;
 }
 
 const InvoicePreview: React.FC<InvoicePreviewProps> = (props) => {
-
-  // ✅ HOOKS MUST BE HERE, inside component
-  const [isDownloading, setIsDownloading] = useState(false);
-
-  const {
-    data,
-    t,
-    currencySymbol,
-    qrCodeUrl,
-    showQrCode,
-    formatNumber,
-    formatDate,
-    handleFileChange,
-    removeImage,
-    handleDataChange,
-    handleItemChange,
-    removeItem,
-    addItem,
-    subtotal,
-    total,
-    balanceDue,
-    EditableField,
-    templateId
-  } = props;
+  const { templateId, isDownloading } = props;
 
   const renderTemplate = () => {
     switch (templateId) {

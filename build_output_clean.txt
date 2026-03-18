@@ -1,0 +1,3137 @@
+﻿
+> quickbillr---free-invoice-generator@0.0.0 build
+> next build
+
+   Γû▓ Next.js 15.1.0
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : 
+At line:1 char:1
++ & "D:\All 
+Softwares/node.exe" 
+"D:\All Softwares/node_
+modules/npm/bin/ ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Failed to compile.
+
+./app/api/auth/login/ro
+ute.ts
+37:12  Error: '_error' 
+is defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+
+./app/api/auth/me/route
+.ts
+43:14  Error: '_err' 
+is defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+46:12  Error: '_error' 
+is defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+
+./app/api/auth/signup/r
+oute.ts
+45:12  Error: '_error' 
+is defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+
+./app/blog/best-invoice
+-software-for-small-bus
+iness/page.tsx
+180:92  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+180:103  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+180:136  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+180:141  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/blog/free-invoice
+-builder/page.tsx
+40:104  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+40:113  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:110  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:124  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:162  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:171  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:25  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:30  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+53:32  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+53:47  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+53:53  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+59:32  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+59:59  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+59:94  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+59:123  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+66:196  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+73:44  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+90:103  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+90:109  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+90:114  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+90:120  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+112:19  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+112:53  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+112:64  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+112:287  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+129:85  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+153:106  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+153:117  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+157:17  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+157:302  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+157:330  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+263:60  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+264:204  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+264:216  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+272:178  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+276:150  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+276:160  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+286:31  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+286:41  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/blog/get-paid-fas
+ter/page.tsx
+29:107  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+29:115  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+32:110  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+32:118  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:110  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:126  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:149  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+42:181  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+42:308  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:325  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:331  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:351  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:30  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+45:141  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+53:246  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+53:265  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+69:19  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+69:114  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+69:165  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+69:181  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+69:200  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+69:213  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+69:214  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+80:132  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+80:149  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+88:155  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+88:168  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+88:173  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+88:191  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+97:26  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+97:33  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+106:41  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+106:50  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+114:95  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+114:118  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+139:170  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+139:190  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+139:201  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+139:336  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+148:93  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+148:116  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+150:96  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+150:226  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+150:237  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+155:167  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+155:228  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+159:156  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+159:165  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+168:96  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+168:109  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+170:63  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+170:82  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+173:52  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+173:87  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+173:95  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+173:158  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+173:163  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+173:168  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+173:175  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+173:264  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+193:94  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+193:104  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+216:72  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+221:124  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+221:134  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+221:166  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+221:264  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+221:269  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+225:302  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+228:85  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+228:95  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+239:18  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/blog/how-to-add-t
+ax-and-discounts-to-an-
+invoice/page.tsx
+32:43  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+32:64  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+32:391  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+32:402  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:95  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:109  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:200  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+42:290  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:295  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:218  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:234  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:294  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:298  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:308  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:312  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+51:121  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+51:132  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+58:76  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+58:88  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+66:80  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+66:88  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+66:93  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+66:113  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+87:130  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+87:139  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+98:31  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+98:48  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+98:118  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+98:187  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+104:69  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+104:87  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+120:34  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+120:42  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+126:62  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+126:75  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+126:88  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+126:103  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+162:17  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+162:31  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+162:102  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+177:52  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+177:68  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+177:92  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+177:160  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+177:250  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+198:74  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+198:79  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+203:97  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+203:108  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+203:114  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+203:135  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+203:140  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+203:160  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+213:18  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/blog/how-to-avoid
+-late-payments-from-cli
+ents/page.tsx
+32:546  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+32:554  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+40:108  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+40:123  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:190  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:221  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:243  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:251  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:256  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+42:277  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+42:335  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+45:329  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:340  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+53:36  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+53:123  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+53:191  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+53:203  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+53:217  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+58:78  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+58:94  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+62:87  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+62:103  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+77:261  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+91:61  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+91:74  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+91:79  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+97:80  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+114:75  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+114:89  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+114:94  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+114:106  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+116:51  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+116:79  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+119:57  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+119:80  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+119:90  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+119:119  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+119:319  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+119:368  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+125:64  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+125:88  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+125:94  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+125:136  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+125:150  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+125:170  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+125:187  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+135:104  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+135:110  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+137:37  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+137:46  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+137:142  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+137:154  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+152:52  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+152:220  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+172:84  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+172:112  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+177:86  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+177:95  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+177:108  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+192:94  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+192:101  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+193:134  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+193:138  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+193:150  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+193:168  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+193:189  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+193:222  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+193:298  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+197:159  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+197:162  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+197:242  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+200:82  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+200:92  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+201:67  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+201:73  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+201:242  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+201:295  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+205:106  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+205:123  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+205:304  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/blog/how-to-handl
+e-late-payments/page.ts
+x
+42:133  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+42:363  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+45:33  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:53  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+57:80  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+57:94  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+59:153  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+59:174  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+59:194  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+66:93  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+66:136  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+66:162  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+107:90  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+107:108  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+109:17  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+109:296  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+113:91  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+113:104  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+115:17  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+115:44  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+115:305  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+115:334  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+134:83  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+134:96  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+136:54  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+136:233  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+136:246  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+136:253  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+136:262  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+136:294  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+136:384  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+136:397  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+136:414  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+139:33  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+150:217  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+150:325  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+150:333  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+154:77  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+154:91  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+154:156  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+154:344  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+158:171  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+158:180  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+172:58  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+172:72  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/blog/how-to-numbe
+r-invoices-properly/pag
+e.tsx
+32:282  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+32:284  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+32:298  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+32:303  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+40:118  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+40:138  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:259  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+53:25  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+53:43  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+78:85  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+78:97  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+80:87  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+80:99  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+85:69  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+85:76  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+89:71  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+89:78  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+130:104  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+130:108  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+170:79  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+170:89  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+171:89  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+171:99  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/blog/invoice-mist
+akes-cost-small-busines
+ses-money/page.tsx
+29:107  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+29:127  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:246  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:260  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:271  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+45:386  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:394  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:442  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+54:79  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+54:94  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+56:61  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+56:80  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+63:19  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+63:37  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+63:59  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+63:93  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+77:43  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+77:61  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+77:78  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+77:100  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+90:74  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+90:92  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+90:101  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+90:298  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+98:74  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+98:84  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+137:116  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+137:137  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+137:158  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+137:170  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+137:229  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+137:265  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+140:243  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+144:81  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+144:93  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+146:16  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+146:323  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+161:33  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+161:42  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+161:277  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+164:52  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+164:300  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+190:86  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+190:96  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+191:147  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+191:151  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+191:174  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+191:227  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+191:236  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+194:78  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+194:87  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+199:138  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+199:150  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+199:157  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+199:166  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+203:136  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+203:154  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+203:196  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+213:63  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+213:82  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/blog/page.tsx
+33:2  Warning: Using 
+`<img>` could result 
+in slower LCP and 
+higher bandwidth. 
+Consider using `<Image 
+/>` from `next/image` 
+or a custom image 
+loader to 
+automatically optimize 
+images. This may incur 
+additional usage or 
+cost from your 
+provider. See: https://
+nextjs.org/docs/message
+s/no-img-element  @next
+/next/no-img-element
+
+./app/blog/recurring-in
+voices-explained/page.t
+sx
+40:102  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+40:115  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:95  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:111  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:265  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+42:297  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+45:65  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:82  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:95  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:119  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:300  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:311  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+66:66  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+66:76  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+75:120  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+75:128  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+77:112  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+77:124  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+77:161  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+77:176  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+116:104  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+116:120  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+118:34  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+118:44  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+118:60  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+118:76  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+118:81  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+118:100  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+148:220  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+148:250  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+148:264  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+152:71  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+152:223  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+152:236  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+170:88  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+170:105  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+170:112  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+170:138  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/blog/tax-season-p
+rep/page.tsx
+29:107  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+29:124  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+32:126  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+32:134  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+40:109  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+40:122  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:315  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+42:357  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+42:365  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+42:373  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:368  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+45:380  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+56:216  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+56:226  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+83:107  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+83:117  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+107:58  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+126:121  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+126:129  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+126:134  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+126:143  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+128:28  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+128:37  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+128:77  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+128:99  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+142:117  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+142:127  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+155:388  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+155:400  Error: `'` 
+can be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+159:110  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+159:131  Error: `"` 
+can be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+167:62  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/contact-support/C
+ontactPageContent.tsx
+40:33  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+58:74  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/login/page.tsx
+3:27  Error: 
+'useEffect' is defined 
+but never used.  @types
+cript-eslint/no-unused-
+vars
+40:11  Error: 'err' is 
+defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+57:11  Error: 'err' is 
+defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+186:5  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/page.tsx
+40:2  Warning: Using 
+`<img>` could result 
+in slower LCP and 
+higher bandwidth. 
+Consider using `<Image 
+/>` from `next/image` 
+or a custom image 
+loader to 
+automatically optimize 
+images. This may incur 
+additional usage or 
+cost from your 
+provider. See: https://
+nextjs.org/docs/message
+s/no-img-element  @next
+/next/no-img-element
+41:38  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+41:46  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+76:2  Warning: Using 
+`<img>` could result 
+in slower LCP and 
+higher bandwidth. 
+Consider using `<Image 
+/>` from `next/image` 
+or a custom image 
+loader to 
+automatically optimize 
+images. This may incur 
+additional usage or 
+cost from your 
+provider. See: https://
+nextjs.org/docs/message
+s/no-img-element  @next
+/next/no-img-element
+120:2  Warning: Using 
+`<img>` could result 
+in slower LCP and 
+higher bandwidth. 
+Consider using `<Image 
+/>` from `next/image` 
+or a custom image 
+loader to 
+automatically optimize 
+images. This may incur 
+additional usage or 
+cost from your 
+provider. See: https://
+nextjs.org/docs/message
+s/no-img-element  @next
+/next/no-img-element
+327:2  Warning: Using 
+`<img>` could result 
+in slower LCP and 
+higher bandwidth. 
+Consider using `<Image 
+/>` from `next/image` 
+or a custom image 
+loader to 
+automatically optimize 
+images. This may incur 
+additional usage or 
+cost from your 
+provider. See: https://
+nextjs.org/docs/message
+s/no-img-element  @next
+/next/no-img-element
+357:47  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+357:81  Error: `'` can 
+be escaped with 
+`&apos;`, `&lsquo;`, 
+`&#39;`, `&rsquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/privacy-policy/pa
+ge.tsx
+28:44  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+28:58  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+68:163  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+68:176  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+
+./app/signup/page.tsx
+41:11  Error: 'err' is 
+defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+58:11  Error: 'err' is 
+defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+
+./app/terms-of-service/
+page.tsx
+43:36  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+43:42  Error: `"` can 
+be escaped with 
+`&quot;`, `&ldquo;`, 
+`&#34;`, `&rdquo;`.  re
+act/no-unescaped-entiti
+es
+
+./components/BlogLayout
+.tsx
+14:2  Warning: Using 
+`<img>` could result 
+in slower LCP and 
+higher bandwidth. 
+Consider using `<Image 
+/>` from `next/image` 
+or a custom image 
+loader to 
+automatically optimize 
+images. This may incur 
+additional usage or 
+cost from your 
+provider. See: https://
+nextjs.org/docs/message
+s/no-img-element  @next
+/next/no-img-element
+
+./components/Header.tsx
+7:10  Error: 'User' is 
+defined but never 
+used.  @typescript-esli
+nt/no-unused-vars
+
+./components/InvoiceGen
+eratorClient.tsx
+3:100  Error: 
+'Suspense' is defined 
+but never used.  @types
+cript-eslint/no-unused-
+vars
+38:110  Error: 
+Unexpected any. 
+Specify a different 
+type.  @typescript-esli
+nt/no-explicit-any
+161:21  Error: 
+'setPaperSize' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+
+./components/InvoicePre
+view.tsx
+40:25  Error: 
+'setIsDownloading' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+43:5  Error: 'data' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+44:5  Error: 't' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+45:5  Error: 
+'currencySymbol' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+46:5  Error: 
+'qrCodeUrl' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+47:5  Error: 
+'showQrCode' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+48:5  Error: 
+'formatNumber' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+49:5  Error: 
+'formatDate' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+50:5  Error: 
+'handleFileChange' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+51:5  Error: 
+'removeImage' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+52:5  Error: 
+'handleDataChange' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+53:5  Error: 
+'handleItemChange' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+54:5  Error: 
+'removeItem' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+55:5  Error: 'addItem' 
+is assigned a value 
+but never used.  @types
+cript-eslint/no-unused-
+vars
+56:5  Error: 
+'subtotal' is assigned 
+a value but never 
+used.  @typescript-esli
+nt/no-unused-vars
+57:5  Error: 'total' 
+is assigned a value 
+but never used.  @types
+cript-eslint/no-unused-
+vars
+58:5  Error: 
+'balanceDue' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+59:5  Error: 
+'EditableField' is 
+assigned a value but 
+never used.  @typescrip
+t-eslint/no-unused-vars
+
+./components/JsonLd.tsx
+4:9  Error: Unexpected 
+any. Specify a 
+different type.  @types
+cript-eslint/no-explici
+t-any
+
+./components/TemplateSe
+lector.tsx
+53:2  Warning: Using 
+`<img>` could result 
+in slower LCP and 
+higher bandwidth. 
+Consider using `<Image 
+/>` from `next/image` 
+or a custom image 
+loader to 
+automatically optimize 
+images. This may incur 
+additional usage or 
+cost from your 
+provider. See: https://
+nextjs.org/docs/message
+s/no-img-element  @next
+/next/no-img-element
+
+info  - Need to 
+disable some ESLint 
+rules? Learn more 
+here: https://nextjs.or
+g/docs/app/api-referenc
+e/config/eslint#disabli
+ng-rules

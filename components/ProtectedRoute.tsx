@@ -1,5 +1,7 @@
-import React from 'react';
-import { Navigate, useLocation } from 'react-router-dom';
+'use client';
+
+import React, { useEffect } from 'react';
+import { useRouter, usePathname } from 'next/navigation';
 import { useAuth } from '../context/AuthContext';
 import { Loader2 } from 'lucide-react';
 
@@ -9,7 +11,15 @@ interface ProtectedRouteProps {
 
 const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
   const { session, isLoading } = useAuth();
-  const location = useLocation();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    if (!isLoading && !session) {
+      // Redirect to login but save the current location via search params
+      router.replace(`/login?from=${encodeURIComponent(pathname)}`);
+    }
+  }, [session, isLoading, router, pathname]);
 
   if (isLoading) {
     return (
@@ -20,8 +30,7 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
   }
 
   if (!session) {
-    // Redirect to login but save the current location they were trying to go to
-    return <Navigate to="/login" state={{ from: location }} replace />;
+    return null; // Prevents flashing content while redirecting
   }
 
   return <>{children}</>;

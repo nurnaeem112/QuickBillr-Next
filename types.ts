@@ -5,23 +5,13 @@ export interface LineItem {
   price: number | '';
 }
 
-
-
-
-
-
-// In your types.ts file
 export interface Template {
   id: string;
-  image: string;
+  image: any; 
   name: string;
   type: 'Free' | 'Premium';
-  showInHero?: boolean;  // Add this line (optional property)
+  showInHero?: boolean;
 }
-
-
-
-
 
 export enum DocumentType {
   Invoice = 'INVOICE',
@@ -48,13 +38,6 @@ export interface InvoiceData {
   paymentLink: string;
   paymentMethod: string;
   language: string;
-}
-
-export interface Template {
-  id: string;
-  name: string;
-  type: 'Free' | 'Premium';
-  image: string; // 🖼️ Add this line
 }
 
 export interface BlogPost {

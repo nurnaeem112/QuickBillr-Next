@@ -1,13 +1,14 @@
 import type { InvoiceData } from "../types";
-
-declare const jspdf: any;
-declare const html2canvas: any;
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 
 export const downloadPdf = async (
   data: InvoiceData,
   paperSize: string,
   formatDate: (dateStr: string) => string
 ) => {
+  if (typeof window === 'undefined') return;
+  
   const original = document.getElementById("invoice-preview");
   if (!original) {
     console.error("invoice-preview element not found");
@@ -109,7 +110,7 @@ clone.querySelectorAll(".template1-pdf-border").forEach(el => {
     const pdfHeightMm = pxToMm(canvas.height);
 
     // Create PDF sized to exact rendered canvas (portrait orientation implied by dims)
-    const pdf = new jspdf.jsPDF({
+    const pdf = new jsPDF({
       orientation: pdfWidthMm >= pdfHeightMm ? "l" : "p",
       unit: "mm",
       format: [Math.round(pdfWidthMm * 100) / 100, Math.round(pdfHeightMm * 100) / 100],

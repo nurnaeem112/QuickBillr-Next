@@ -1,0 +1,95 @@
+﻿   Γû▓ Next.js 15.1.0
+
+   Creating an optimized production build ...
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "D:\All 
+Softwares/node.exe" 
+"D:\All Softwares/node_
+modules/npm/bin/ ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Failed to com   
+ pile.:String) [],     
+RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+app\layout.tsx
+An error occurred in 
+`next/font`.
+
+ReferenceError: module 
+is not defined in ES 
+module scope
+This file is being 
+treated as an ES 
+module because it has 
+a '.js' file extension 
+and 'F:\Quick Billr - 
+Backup\package.json' 
+contains "type": 
+"module". To treat it 
+as a CommonJS script, 
+rename it to use the 
+'.cjs' file extension.
+    at file:///F:/Quick
+%20Billr%20-%20Backup/p
+ostcss.config.js:1:1
+    at ModuleJob.run (n
+ode:internal/modules/es
+m/module_job:345:25)
+    at async onImport.t
+racePromise.__proto__ (
+node:internal/modules/e
+sm/loader:665:26)
+    at async 
+findConfig (F:\Quick 
+Billr - Backup\node_mod
+ules\next\dist\lib\find
+-config.js:85:25)
+    at async 
+getPostCssPlugins 
+(F:\Quick Billr - Backu
+p\node_modules\next\dis
+t\build\webpack\config\
+blocks\css\plugins.js:8
+9:18)
+    at async F:\Quick 
+Billr - Backup\node_mod
+ules\next\dist\build\we
+bpack\config\blocks\css
+\index.js:124:36
+    at async F:\Quick 
+Billr - Backup\node_mod
+ules\next\dist\build\we
+bpack\loaders\next-font
+-loader\index.js:86:33
+    at async 
+Span.traceAsyncFn 
+(F:\Quick Billr - Backu
+p\node_modules\next\dis
+t\trace\trace.js:153:20
+)
+
+./app/blog/[slug]/page.
+tsx
+Module not found: 
+Can't resolve 
+'../../data/blogPosts'
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+> Build failed because 
+of webpack errors
+

@@ -1,90 +1,90 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import type { BlogPost } from '../data/blogPosts';
+import React from'react';
+import Link from'next/link';
+import type { BlogPost } from'../data/blogPosts';
 
 interface BlogLayoutProps {
-  post: BlogPost;
-  children?: React.ReactNode;
+ post: BlogPost;
+ children?: React.ReactNode;
 }
 
 const BlogLayout: React.FC<BlogLayoutProps> = ({ post, children }) => {
-  return (
-    <div className="bg-white dark:bg-gray-900 min-h-screen">
-      <div className="relative h-[400px] w-full">
-        <img 
-          src={post.imageUrl} 
-          alt={post.title} 
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-            <Link to="/blog" className="inline-flex items-center text-primary-300 hover:text-white transition-colors mb-6 font-medium">
-              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" /></svg>
-              Back to Blog
-            </Link>
-            <h1 className="text-3xl md:text-5xl font-extrabold text-white max-w-4xl">
-              {post.title}
-            </h1>
-          </div>
-        </div>
-      </div>
+ return (
+ <div className="bg-white min-h-screen">
+ <div className="relative h-[400px] w-full">
+ <img 
+ src={post.imageUrl} 
+ alt={post.title} 
+ className="w-full h-full object-cover"
+ />
+ <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end">
+ <div className="container mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+ <Link href="/blog"className="inline-flex items-center text-primary-300 hover:text-white transition-colors mb-6 font-medium">
+ <svg className="w-5 h-5 mr-2"fill="none"stroke="currentColor"viewBox="0 0 24 24"><path strokeLinecap="round"strokeLinejoin="round"strokeWidth="2"d="M15 19l-7-7 7-7"/></svg>
+ Back to Blog
+ </Link>
+ <h1 className="text-3xl md:text-5xl font-extrabold text-white max-w-4xl">
+ {post.title}
+ </h1>
+ </div>
+ </div>
+ </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex items-center space-x-6 mb-10 pb-10 border-b border-gray-100 dark:border-gray-700">
-            <div className="flex items-center">
-              <div className="w-12 h-12 rounded-full bg-primary-600 flex items-center justify-center text-white font-bold text-lg">
-                {post.author.charAt(0)}
-              </div>
-              <div className="ml-4">
-                <p className="text-sm font-bold text-gray-900 dark:text-white">{post.author}</p>
-                <p className="text-xs text-gray-500 dark:text-gray-400">Author</p>
-              </div>
-            </div>
-            <div className="h-8 w-px bg-gray-200 dark:bg-gray-700"></div>
-            <div>
-              <p className="text-sm font-bold text-gray-900 dark:text-white">{post.date}</p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">Published</p>
-            </div>
-            <div className="h-8 w-px bg-gray-200 dark:bg-gray-700"></div>
-            <div>
-              <p className="text-sm font-bold text-gray-900 dark:text-white">{post.readTime}</p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">Reading time</p>
-            </div>
-          </div>
+ <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+ <div className="max-w-4xl mx-auto">
+ <div className="flex items-center space-x-6 mb-10 pb-10 border-b border-gray-100">
+ <div className="flex items-center">
+ <div className="w-12 h-12 rounded-full bg-primary-600 flex items-center justify-center text-white font-bold text-lg">
+ {post.author.charAt(0)}
+ </div>
+ <div className="ml-4">
+ <p className="text-sm font-bold text-gray-900">{post.author}</p>
+ <p className="text-xs text-gray-500">Author</p>
+ </div>
+ </div>
+ <div className="h-8 w-px bg-gray-200"></div>
+ <div>
+ <p className="text-sm font-bold text-gray-900">{post.date}</p>
+ <p className="text-xs text-gray-500">Published</p>
+ </div>
+ <div className="h-8 w-px bg-gray-200"></div>
+ <div>
+ <p className="text-sm font-bold text-gray-900">{post.readTime}</p>
+ <p className="text-xs text-gray-500">Reading time</p>
+ </div>
+ </div>
 
-          <div className="prose prose-lg dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 leading-relaxed">
-            <p className="text-xl font-medium text-gray-900 dark:text-white mb-8">
-              {post.description}
-            </p>
-            
-            {children || (
-              <>
-                {post.content.split('. ').map((sentence, idx) => (
-                  <p key={idx} className="mb-6">
-                    {sentence}{sentence.endsWith('.') ? '' : '.'}
-                  </p>
-                ))}
-              </>
-            )}
-            
-            <div className="bg-primary-50 rounded-2xl p-8 my-12 dark:bg-gray-800 border border-primary-100 dark:border-gray-700">
-              <h3 className="text-xl font-bold text-primary-900 dark:text-primary-400 mb-4">Start billing like a pro today</h3>
-              <p className="text-primary-800 dark:text-gray-300 mb-6">
-                Ready to create your own professional invoices and get paid faster? Try our free invoice builder.
-              </p>
-              <Link 
-                to="/free-invoice-generator" 
-                className="inline-block px-6 py-3 bg-primary-600 text-white font-bold rounded-lg hover:bg-primary-700 transition-all shadow-md"
-              >
-                Create My First Invoice
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+ <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+ <p className="text-xl font-medium text-gray-900 mb-8">
+ {post.description}
+ </p>
+ 
+ {children || (
+ <>
+ {post.content.split('.').map((sentence, idx) => (
+ <p key={idx} className="mb-6">
+ {sentence}{sentence.endsWith('.') ?'':'.'}
+ </p>
+ ))}
+ </>
+ )}
+ 
+ <div className="bg-primary-50 rounded-2xl p-8 my-12 border border-primary-100">
+ <h3 className="text-xl font-bold text-primary-900 mb-4">Start billing like a pro today</h3>
+ <p className="text-primary-800 mb-6">
+ Ready to create your own professional invoices and get paid faster? Try our free invoice builder.
+ </p>
+ <Link 
+ href="/free-invoice-generator"
+ className="inline-block px-6 py-3 bg-primary-600 text-white font-bold rounded-lg hover:bg-primary-700 transition-all shadow-md"
+ >
+ Create My First Invoice
+ </Link>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ );
 };
 
 export default BlogLayout;
