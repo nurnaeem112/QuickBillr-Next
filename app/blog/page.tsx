@@ -1,5 +1,6 @@
 import React from'react';
 import Link from'next/link';
+import Image from'next/image';
 import { blogPosts } from'../../data/blogPosts';
 import { Metadata } from'next';
 
@@ -30,10 +31,12 @@ const BlogPage = () => {
  className="flex flex-col bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1 group"
  >
  <div className="relative h-56 overflow-hidden">
- <img 
+ <Image 
  src={post.imageUrl} 
  alt={post.title} 
+ fill
  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+ unoptimized
  />
  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-primary-700">
  {post.readTime}

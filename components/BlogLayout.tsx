@@ -1,5 +1,6 @@
 import React from'react';
 import Link from'next/link';
+import Image from'next/image';
 import type { BlogPost } from'../data/blogPosts';
 
 interface BlogLayoutProps {
@@ -11,10 +12,12 @@ const BlogLayout: React.FC<BlogLayoutProps> = ({ post, children }) => {
  return (
  <div className="bg-white min-h-screen">
  <div className="relative h-[400px] w-full">
- <img 
+ <Image 
  src={post.imageUrl} 
  alt={post.title} 
+ fill
  className="w-full h-full object-cover"
+ unoptimized
  />
  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end">
  <div className="container mx-auto px-4 sm:px-6 lg:px-8 pb-12">

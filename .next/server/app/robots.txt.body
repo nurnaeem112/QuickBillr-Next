@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://quickbillr.online/sitemap.xml

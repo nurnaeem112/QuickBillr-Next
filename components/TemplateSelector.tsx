@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from"react";
+import Image from "next/image";
 import { TEMPLATES } from"../constants";
 
 export default function TemplateSelector({ selectedTemplate, setSelectedTemplate }) {
@@ -50,10 +51,12 @@ export default function TemplateSelector({ selectedTemplate, setSelectedTemplate
  setSelectedTemplate(t.id);
  }}
  >
- <img
+ <Image
  src={t.image}
  alt={t.name}
- className="w-full h-40 object-contain bg-white"
+ fill
+ className="w-full h-full object-contain bg-white"
+ unoptimized
  />
  </div>
  ))}

@@ -1,20 +1,335 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/app/_not-found/page-b5be133009f21a6d.js"
     ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/api/auth/login/route": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/app/api/auth/login/route-04fddf6c2a19f319.js"
+    ],
+    "/api/auth/signup/route": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/app/api/auth/signup/route-1cdc958ef4767cca.js"
+    ],
+    "/api/auth/me/route": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/app/api/auth/me/route-67194de4b0ebb7f6.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/css/36525323d8dd2b3d.css",
+      "static/css/081a0afca5a9bd20.css",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/2303-403eaa5263756e4e.js",
+      "static/chunks/app/layout-abf5544e8217ccd9.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/2303-403eaa5263756e4e.js",
+      "static/chunks/app/login/page-bb7ae673235c2e16.js"
+    ],
+    "/signup/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/2303-403eaa5263756e4e.js",
+      "static/chunks/app/signup/page-74233b23202b159c.js"
+    ],
+    "/about-quickbillr/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/app/about-quickbillr/page-6dcd31a6c32a4905.js"
+    ],
+    "/blog/best-invoice-software-for-freelancers/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/best-invoice-software-for-freelancers/page-a5caefc6d1671175.js"
+    ],
+    "/blog/best-invoice-software-for-small-business/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/best-invoice-software-for-small-business/page-ddb130e0e2a2b94f.js"
+    ],
+    "/blog/branding-your-business/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/branding-your-business/page-cf07c30203d44eb5.js"
+    ],
+    "/blog/[slug]/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/[slug]/page-ddb63bc61461a542.js"
+    ],
+    "/blog/estimate-vs-invoice/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/estimate-vs-invoice/page-382e7aaf04957947.js"
+    ],
+    "/blog/free-invoice-builder/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/free-invoice-builder/page-bbe1d519c7c6afcc.js"
+    ],
+    "/blog/how-to-add-tax-and-discounts-to-an-invoice/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/how-to-add-tax-and-discounts-to-an-invoice/page-f2622d281e9cfd88.js"
+    ],
+    "/blog/get-paid-faster/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/get-paid-faster/page-39a256dbc05a42c6.js"
+    ],
+    "/blog/how-to-avoid-late-payments-from-clients/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/how-to-avoid-late-payments-from-clients/page-d05c53a89967add0.js"
+    ],
+    "/blog/how-to-handle-late-payments/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/how-to-handle-late-payments/page-3fecd162c81cec75.js"
+    ],
+    "/blog/how-to-create-an-invoice/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/how-to-create-an-invoice/page-f9ff96c15faa28f1.js"
+    ],
+    "/blog/how-to-number-invoices-properly/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/how-to-number-invoices-properly/page-1c5d10ef098c6818.js"
+    ],
+    "/blog/how-to-send-an-invoice-by-email-professionally/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/how-to-send-an-invoice-by-email-professionally/page-43f8b2e917774300.js"
+    ],
+    "/blog/invoice-due-date-terms-explained/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/invoice-due-date-terms-explained/page-e8a218cd7542f113.js"
+    ],
+    "/blog/invoice-mistakes-cost-small-businesses-money/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/invoice-mistakes-cost-small-businesses-money/page-38937cf466617aac.js"
+    ],
+    "/blog/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/page-90e4e239df4d10c3.js"
+    ],
+    "/blog/invoice-template-vs-software/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/invoice-template-vs-software/page-3910dfa4572fb0aa.js"
+    ],
+    "/blog/online-invoice-vs-paper-invoice/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/online-invoice-vs-paper-invoice/page-b6461a3e0da07c48.js"
+    ],
+    "/blog/invoicing-mistakes/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/invoicing-mistakes/page-0960f01fadf705f4.js"
+    ],
+    "/blog/remote-work-billing/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/remote-work-billing/page-a2e96611a03adc4f.js"
+    ],
+    "/blog/tax-season-prep/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/tax-season-prep/page-6eea471d19e2b3e9.js"
+    ],
+    "/blog/recurring-invoices-explained/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/recurring-invoices-explained/page-e027eb15fd59077d.js"
+    ],
+    "/blog/the-ultimate-guide-to-invoice-software/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/the-ultimate-guide-to-invoice-software/page-21b6a14b7a3bf95d.js"
     ],
     "/free-invoice-generator/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/free-invoice-generator/page.js"
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/2f0b94e8-79d54df2ef040d98.js",
+      "static/chunks/164f4fb6-ba86ee6c69042e46.js",
+      "static/chunks/ad2866b8-e61efaab7b01bf9f.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/7273-72b097756d815227.js",
+      "static/chunks/app/free-invoice-generator/page-b6c5b802fb55cb07.js"
+    ],
+    "/contact-support/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/app/contact-support/page-91ee186efe2f95cc.js"
+    ],
+    "/privacy-policy/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/app/privacy-policy/page-55be30a5287dc3c9.js"
+    ],
+    "/blog/the-future-of-billing/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/the-future-of-billing/page-cb6400b989c98bf8.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/page-71556632b40a0a7c.js"
+    ],
+    "/terms-of-service/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/app/terms-of-service/page-1c78a89bff4095f6.js"
+    ],
+    "/blog/what-should-be-included-in-an-invoice/page": [
+      "static/chunks/webpack-e6fdf45a82694888.js",
+      "static/chunks/4bd1b696-54b6b3eb2292fa90.js",
+      "static/chunks/1517-2de758f0a824987b.js",
+      "static/chunks/main-app-8fb87ac8a4219e26.js",
+      "static/chunks/8173-04de3e1c1893b9d9.js",
+      "static/chunks/7970-d85cc2cd54890af2.js",
+      "static/chunks/app/blog/what-should-be-included-in-an-invoice/page-c22cbdd0a2aa343c.js"
     ]
   }
 }

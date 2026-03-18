@@ -1,4 +1,5 @@
 import React from'react';
+import Image from'next/image';
 import Link from'next/link';
 import { blogPosts } from'../data/blogPosts';
 import { TEMPLATES } from'../constants';
@@ -37,7 +38,7 @@ const FeatureCard: React.FC<{ icon: React.ReactElement; title: string; descripti
 
 const TestimonialCard: React.FC<{ quote: string; author: string; role: string; avatar: string }> = ({ quote, author, role, avatar }) => (
  <div className="bg-white p-6 rounded-lg shadow-md text-center">
- <img className="w-16 h-16 rounded-full mx-auto mb-4"src={avatar} alt={`Headshot of ${author}, ${role}`} />
+ <Image className="w-16 h-16 rounded-full mx-auto mb-4" src={avatar} alt={`Headshot of ${author}, ${role}`} width={64} height={64} unoptimized />
  <p className="text-gray-600 italic">&quot;{quote}&quot;</p>
  <p className="mt-4 font-semibold text-gray-900">{author}</p>
  <p className="text-sm text-gray-500">{role}</p>
@@ -73,11 +74,12 @@ const TemplateMarquee: React.FC<{ vertical?: boolean; reverse?: boolean; speed?:
  href={`/free-invoice-generator?template=${template.id}`}
  className="group block relative w-full aspect-[1/1.414] bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden transition-all duration-500 hover:shadow-2xl hover:scale-105"
  >
- <img
+ <Image
  src={template.image as string}
  alt={template.name}
+ fill
  className="w-full h-full object-cover"
- loading="lazy"
+ unoptimized
  />
  <div className="absolute inset-0 bg-primary-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-[1px]">
  <div className="text-center px-2">
@@ -117,11 +119,12 @@ const TemplateMarquee: React.FC<{ vertical?: boolean; reverse?: boolean; speed?:
  href={`/free-invoice-generator?template=${template.id}`}
  className="group block relative w-48 md:w-64 aspect-[1/1.414] bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:scale-105"
  >
- <img
+ <Image
  src={template.image as string}
  alt={template.name}
+ fill
  className="w-full h-full object-cover"
- loading="lazy"
+ unoptimized
  />
  <div className="absolute inset-0 bg-primary-900/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-[1px]">
  <div className="text-center px-4">
@@ -324,10 +327,12 @@ export default function HomePage() {
  className="group flex flex-col bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-all"
  >
  <div className="relative h-48 overflow-hidden">
- <img 
+ <Image 
  src={post.imageUrl} 
  alt={post.title} 
+ fill
  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+ unoptimized
  />
  </div>
  <div className="p-6">
