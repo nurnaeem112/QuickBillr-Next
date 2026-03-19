@@ -1,7 +1,4 @@
 import type { InvoiceData } from "../types";
-import jsPDF from 'jspdf';
-import html2canvas from 'html2canvas';
-
 export const downloadPdf = async (
   data: InvoiceData,
   paperSize: string,
@@ -86,6 +83,10 @@ clone.querySelectorAll(".template1-pdf-border").forEach(el => {
     // allow a short pause so browser applies styles (fonts/tailwind)
     await new Promise(r => setTimeout(r, 80));
 
+    // dynamically import html2canvas
+    const html2canvasModule = await import('html2canvas');
+    const html2canvas = html2canvasModule.default;
+
     // render with html2canvas
     const canvas = await html2canvas(clone, {
       scale: 3,
@@ -108,6 +109,10 @@ clone.querySelectorAll(".template1-pdf-border").forEach(el => {
 
     const pdfWidthMm = pxToMm(canvas.width);
     const pdfHeightMm = pxToMm(canvas.height);
+
+    // dynamically import jspdf
+    const jsPDFModule = await import('jspdf');
+    const jsPDF = jsPDFModule.default;
 
     // Create PDF sized to exact rendered canvas (portrait orientation implied by dims)
     const pdf = new jsPDF({
