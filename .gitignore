@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Next.js build artifacts
+.next/
+out/
+build/
+.vercel/
+
+# Environment variables
+.env*.local
